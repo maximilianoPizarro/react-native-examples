@@ -3,7 +3,7 @@ package com.jhipsternative.app.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Properties specific to Jhipsternative.
+ * Properties specific to Store.
  * <p>
  * Properties are configured in the {@code application.yml} file.
  * See {@link tech.jhipster.config.JHipsterProperties} for a good example.

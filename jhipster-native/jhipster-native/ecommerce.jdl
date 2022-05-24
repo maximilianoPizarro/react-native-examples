@@ -1,14 +1,18 @@
 application {
   config {
     baseName store
-    packageName com.jhipster.demo.store
+    packageName com.jhipsternative.app
     authenticationType jwt
     prodDatabaseType mysql
-    buildTool gradle
+    devDatabaseType h2Disk
+    prodDatabaseType mysql    
+    buildTool maven
     clientFramework react
+    clientTheme vapor
+    clientThemeVariant dark    
     enableTranslation true
     nativeLanguage en
-    languages [en, nl]
+    languages [es, en]
   }
   entities *
 }
